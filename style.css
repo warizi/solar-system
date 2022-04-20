@@ -1,0 +1,113 @@
+@font-face {
+  src: url("BMJUA_otf.otf");
+  font-family: "BM";
+}
+@font-face {
+  src:url("Dongle-Bold.ttf");
+  font-family: "dg-B";
+}
+@font-face {
+  src:url("Dongle-Light.ttf");
+  font-family: "dg-L";
+}
+h1{
+  font-family: "BM";
+  border: 0px solid ;
+  margin: 0;
+  padding: 50px;
+  margin-left: 7%;
+  margin-right: 7%;
+  background-color: rgba(50, 50, 50, 0.9);
+  color: rgba(200, 200, 200, 1);
+}
+h2{
+  font-family: "BM";
+}
+#article h2{
+  font-family: "dg-B";
+  font-size: 50px;
+}
+#article #content{
+  font-family: "dg-L";
+  font-size: 25px;
+}
+
+}
+.etc a{
+  color: #fff;
+}
+.etc{
+  font-family: "BM";
+  border: 1px solid rgba(70, 70, 70, 0.7);
+  background-color: rgba(70, 70, 70, 0.7);
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 20px;
+  text-align: center;
+
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.menu-bar{
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: "BM";
+  margin-left: 7%;
+  margin-right: 7%;
+  text-align: center;
+  padding: 0;
+  line-height: 0;/*메뉴바에서 밑에 여백이 있어서 menu-bar-center의 텍스트 줄간격을 없애버림*/
+}
+.menu-bar-center{
+  display: inline-block;
+}
+.menu-bar a{
+  padding: 15px;
+  display: inline-block;
+  font-size: 15px;
+  padding-right: 25px;
+  float: left;
+}
+.menu-bar a:hover{
+  background-color: rgba(50, 50, 50, 0.9);
+}
+a.active{
+  background-color: rgba(200, 200, 200, 0.9);
+}
+#grid #side-menu{
+  text-align: center;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-right: 1px solid rgba(0, 0, 0, 0.7);
+  width: 80px;
+  margin: 0;
+  line-height: 3;
+}
+#grid{
+  height: 700px;
+  margin-left: 7%;
+  margin-right: 7%;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+}
+#article{
+  padding-left: 40px;
+  background-color: rgba(200, 200, 200, 0.9);
+  padding-right: 20px;
+}
+#side-menu a{
+  font-family: "BM";
+  display: block;
+  border: 0px solid ;
+  overflow: hidden;
+  color: #fff;
+}
+#side-menu a:hover{
+  background-color: rgba(50, 50, 50, 0.9);
+}
+#index{
+    height: 700px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
